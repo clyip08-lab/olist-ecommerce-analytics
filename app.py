@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-EXPORT_PATH = r"C:\Users\yipch\OneDrive\Desktop\olist_analytics\exports"
+EXPORT_PATH = os.path.join(os.path.dirname(__file__), "exports")
 
 # ── LOAD DATA ─────────────────────────────────────────────────
 @st.cache_data
