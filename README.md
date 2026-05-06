@@ -6,7 +6,7 @@ An end-to-end analytics project built on the
 ---
 
 ## 📊 Live Demo
-🔗 [Streamlit App](#) ← replace with your deployed URL later
+🔗 
 
 ---
 
