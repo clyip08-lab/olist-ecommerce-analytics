@@ -45,3 +45,79 @@ An end-to-end analytics project built on the
 ---
 
 ## 📁 Project Structure
+olist_analytics/
+├── data/               ← Raw CSVs (not tracked)
+├── notebooks/          ← Jupyter analysis notebooks
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_core_analysis.ipynb
+│   └── 04_advanced_analysis.ipynb
+├── scripts/            ← Python scripts
+│   ├── kpi_definitions.py
+│   └── business_insights.py
+├── exports/            ← Cleaned & analysis-ready CSVs
+├── app.py              ← Streamlit dashboard
+└── README.md
+---
+
+## 📐 Analysis Performed
+
+### Core Analysis
+- **RFM Segmentation** — Ranked all customers by Recency, Frequency, Monetary value
+- **Cohort Analysis** — Monthly retention matrix from first purchase
+- **Time Series** — Revenue and order trends with MoM growth rates
+
+### Advanced Analysis
+- **Pareto Analysis** — 80/20 category revenue concentration
+- **Customer LTV** — Bronze → Platinum tier segmentation
+- **Delivery Performance** — On-time rates and delay impact on reviews
+- **Payment Behaviour** — Payment type mix and instalment patterns
+- **Repeat Purchase Rate** — One-time vs returning customer analysis
+
+---
+
+## 💡 Business Recommendations
+
+1. **Retention Programme** — 97% one-time buyers signals huge opportunity.
+   Post-purchase email sequences or loyalty rewards could significantly
+   lift LTV.
+
+2. **Logistics Improvement** — Delivery time has a -0.45 correlation with
+   review scores. Improving fulfilment speed in slow states would
+   directly increase customer satisfaction.
+
+3. **Category Focus** — 17 categories drive 80% of revenue. Marketing and
+   inventory investment should be concentrated here for maximum ROI.
+
+4. **Champion Retention** — Champions are a small % of customers but
+   generate disproportionate revenue. A VIP retention strategy is
+   essential.
+
+5. **Credit Card Promotions** — 78.3% of revenue via credit card with
+   heavy instalment usage. 0% instalment promotions could boost
+   conversion rates for high-ticket categories.
+
+---
+
+## 🚀 How to Run
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/clyip08/olist-ecommerce-analytics.git
+
+# 2. Create virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the Streamlit app
+streamlit run app.py
+```
+
+---
+
+## 👤 Author
+**YIP CHEN LENG**
+[LinkedIn](#) | [GitHub](#)
