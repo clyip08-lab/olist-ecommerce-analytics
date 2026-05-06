@@ -120,4 +120,4 @@ streamlit run app.py
 
 ## 👤 Author
 **YIP CHEN LENG**
-[https://www.linkedin.com/in/yipcl/](#) | [GitHub](#)
+https://www.linkedin.com/in/yipcl| [GitHub](#)
