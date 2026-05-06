@@ -6,7 +6,7 @@ An end-to-end analytics project built on the
 ---
 
 ## 📊 Live Demo
-🔗 
+🔗 https://olist-ecommerce-analytics-dusuawrhsjg7jgmojjnes9.streamlit.app/
 
 ---
 
