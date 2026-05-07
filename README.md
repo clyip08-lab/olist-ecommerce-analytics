@@ -42,6 +42,45 @@ An end-to-end analytics project built on the
 | Database | MySQL |
 | Version Control | Git & GitHub |
 
+olist-ecommerce-analytics/
+│
+├── data/                     # Raw source data (not uploaded)
+│
+├── notebooks/                # Exploration & analysis notebooks
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_rfm_analysis.ipynb
+│   ├── 04_cohort_analysis.ipynb
+│   └── 05_advanced_analysis.ipynb
+│
+├── src/                      # Reusable Python modules
+│   ├── data_cleaning.py
+│   ├── kpi_definitions.py
+│   ├── rfm.py
+│   ├── cohort.py
+│   ├── timeseries.py
+│   └── business_insights.py
+│
+├── output/                   # Processed outputs / exports
+│   ├── rfm.csv
+│   ├── cohort.csv
+│   ├── timeseries.csv
+│   └── customer_ltv.csv
+│
+├── sql/                      # SQL scripts
+│   ├── schema.sql
+│   └── validation_queries.sql
+│
+├── powerbi/
+│   └── olist_dashboard.pbix
+│
+├── streamlit/
+│   └── app.py
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+
 ## 📐 Analysis Performed
 
 ### Core Analysis
