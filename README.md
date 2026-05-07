@@ -42,11 +42,9 @@ An end-to-end analytics project built on the
 | Database | MySQL |
 | Version Control | Git & GitHub |
 
----
-
 ## 📁 Project Structure
-|olist_analytics/
-|data/               ← Raw CSVs (not tracked)
+|olist_analytics|
+|data|               ← Raw CSVs (not tracked)
 |notebooks/          ← Jupyter analysis notebooks
 |   |01_data_exploration.ipynb
 |   ├02_data_cleaning.ipynb
