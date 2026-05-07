@@ -42,22 +42,6 @@ An end-to-end analytics project built on the
 | Database | MySQL |
 | Version Control | Git & GitHub |
 
-## 📁 Project Structure
-|olist_analytics|
-|data|               ← Raw CSVs (not tracked)
-|notebooks/          ← Jupyter analysis notebooks
-|   |01_data_exploration.ipynb
-|   ├02_data_cleaning.ipynb
-|   ├03_core_analysis.ipynb
-|   └04_advanced_analysis.ipynb
-|scripts/            ← Python scripts
-│   ├kpi_definitions.py
-│   └business_insights.py
-├exports/            ← Cleaned & analysis-ready CSVs
-├app.py              ← Streamlit dashboard
-└README.md
----
-
 ## 📐 Analysis Performed
 
 ### Core Analysis
