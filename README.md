@@ -70,10 +70,6 @@ olist-ecommerce-analytics/
 │   ├── timeseries.csv
 │   └── customer_ltv.csv
 │
-├── sql/                      # SQL scripts
-│   ├── schema.sql
-│   └── validation_queries.sql
-│
 ├── powerbi/
 │   └── olist_dashboard.pbix
 │
