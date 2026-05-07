@@ -42,6 +42,9 @@ An end-to-end analytics project built on the
 | Database | MySQL |
 | Version Control | Git & GitHub |
 
+## Project Structure
+
+```text
 olist-ecommerce-analytics/
 │
 ├── data/                     # Raw source data (not uploaded)
@@ -80,7 +83,7 @@ olist-ecommerce-analytics/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ## 📐 Analysis Performed
 
 ### Core Analysis
